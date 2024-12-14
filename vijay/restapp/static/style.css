@@ -1,0 +1,101 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('backround.jpg'); /* Replace with your image file path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed on scroll */
+    background-repeat: no-repeat; /* Prevents repeating of the image */
+}
+
+/* Header Styling */
+header.banner {
+    background-color: #222;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+header.banner nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header.banner nav ul li {
+    display: inline;
+}
+
+header.banner nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+header.banner nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Intro Section */
+section.intro {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section.intro h2 {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+section.intro p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header.banner nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section.intro {
+        margin: 10px;
+    }
+}

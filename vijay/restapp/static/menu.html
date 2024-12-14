@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header.banner {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header.banner h1 {
+            margin: 0;
+        }
+
+        header.banner nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header.banner nav ul li {
+            display: inline;
+        }
+
+        header.banner nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        header.banner nav ul li a:hover {
+            color: #ff6347;
+        }
+
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 2em;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0;
+        }
+
+        .item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 2px solid #f4f4f4;
+        }
+
+        .item h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .item p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner">
+        <h1>Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h2>Our Delicious Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <img src="ramen.jpg" alt="ramen">
+                <h3>ramen</h3>
+                <p>Rs.300</p>
+            </div>
+
+            <div class="item">
+                <img src="soup.jpg" alt="soup">
+                <h3>soup</h3>
+                <p>Rs. 200</p>
+            </div>
+
+            <div class="item">
+                <img src="butter non.jpg" alt="butter non">
+                <h3>butter non</h3>
+                <p>Rs. 250</p>
+            </div>
+
+            <div class="item">
+                <img src="Spaghetti.jpg" alt="Spaghetti">
+                <h3>Spaghetti </h3>
+                <p>Rs. 400</p>
+            </div>
+
+            <div class="item">
+                <img src="fried chicken.jpg" alt="fried chicken">
+                <h3>fried chicken</h3>
+                <p>Rs. 400</p>
+            </div>
+
+            <div class="item">
+                <img src="nachos.jpg" alt="nachos">
+                <h3>nachos</h3>
+                <p>Rs. 250</p>
+            </div>
+
+            <div class="item">
+                <img src="pasta.jpg" alt="pasta">
+                <h3>pasta</h3>
+                <p>Rs. 500</p>
+            </div>
+
+            <div class="item">
+                <img src="fries.jpg" alt="fries">
+                <h3>fries</h3>
+                <p>Rs. 250</p>
+            </div>
+
+            <div class="item">
+                <img src="macroons.jpg alt="macroons">
+                <h3>macroons</h3>
+                <p>Rs. 390</p>
+            </div>
+
+            <div class="item">
+                <img src="pncake.jpg" alt="pancake">
+                <h3>pancake</h3>
+                <p>Rs. 400</p>
+            </div>
+
+            <div class="item">
+                <img src="pizza.jpg" alt="pizza.">
+                <h3>=pizza</h3>
+                <p>Rs. 550</p>
+            </div>
+
+            <div class="item">
+                <img src="toast.jpg" alt="toast">
+                <h3>toast</h3>
+                <p>Rs. 200</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dhanashree arun.A</p>
+    </footer>
+</body>
+</html>
